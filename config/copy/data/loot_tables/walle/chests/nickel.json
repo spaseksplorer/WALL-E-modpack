@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "name": "nickel_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "dustNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustSmallNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustTinyNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ingotNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "plateNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "nuggetNickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

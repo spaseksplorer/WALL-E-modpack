@@ -1,0 +1,177 @@
+{
+  "pools": [
+    {
+      "name": "electrum_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "dustElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustSmallElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustTinyElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ingotElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "plateElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "foilElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickLongElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "boltElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "screwElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ringElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "nuggetElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "wireFineElectrum",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

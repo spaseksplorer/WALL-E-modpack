@@ -1,0 +1,146 @@
+{
+  "pools": [
+    {
+      "name": "potin_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "dustPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustSmallPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustTinyPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ingotPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "platePotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickLongPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "boltPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "screwPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "nuggetPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "gearPotin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "name": "styrenebutadienerubber_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "dustStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustSmallStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustTinyStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ingotStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "plateStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "foilStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ringStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "nuggetStyreneButadieneRubber",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+	"rules": [
+		{
+			"match": {"blocks": {"blocks": ["contenttweaker:trashblock11"]}},
+			"drops": [
+				{"selector": {"weight": {"value": 1}},
+					"item": {"items": ["gregtech:meta_item_1:93"]}},
+				{"selector": {"weight": {"value": 1024}},
+					"item": {"items": ["gregtech:machine_casing:0"]}},
+				{"selector": {"weight": {"value": 8192}},
+					"item": {"items": ["gregtech:machine_casing:1"]}},
+				{"selector": {"weight": {"value": 4096}},
+					"item": {"items": ["gregtech:machine_casing:2"]}},
+				{"selector": {"weight": {"value": 1024}},
+					"item": {"items": ["gregtech:machine_casing:3"]}},
+				{"selector": {"weight": {"value": 256}},
+					"item": {"items": ["gregtech:machine_casing:4"]}},
+				{"selector": {"weight": {"value": 64}},
+					"item": {"items": ["gregtech:machine_casing:5"]}},
+				{"selector": {"weight": {"value": 16}},
+					"item": {"items": ["gregtech:machine_casing:6"]}},
+				{"selector": {"weight": {"value": 4}},
+					"item": {"items": ["gregtech:machine_casing:7"]}},
+				{"selector": {"weight": {"value": 1}},
+					"item": {"items": ["gregtech:machine_casing:8"]}}
+			]
+		}
+	]
+}

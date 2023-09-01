@@ -1,0 +1,34 @@
+{
+  "pools": [
+	{
+	  "rolls": 1,
+	  "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/cable_electrum",
+		  "weight": 4
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_gold",
+		  "weight": 8
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_kanthal",
+		  "weight": 4
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_silver",
+		  "weight": 4
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_aluminium",
+		  "weight": 2
+		}	
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+tile.contenttweaker.trashBlock00.name=Metal Ingot Scrap
+tile.contenttweaker.trashBlock01.name=Metal Ingot Scrap
+tile.contenttweaker.trashBlock02.name=Basic Electronic Waste
+tile.contenttweaker.trashBlock03.name=Scrap Machines
+tile.contenttweaker.trashBlock04.name=Advanced Electronic Waste
+tile.contenttweaker.trashBlock05.name=Metal Frame Scrap
+tile.contenttweaker.trashBlock06.name=Plumbing Waste
+tile.contenttweaker.trashBlock07.name=Plumbing Waste
+tile.contenttweaker.trashBlock08.name=Fan Scrap
+tile.contenttweaker.trashBlock09.name=Plastic Trash
+tile.contenttweaker.trashBlock10.name=Cable Waste
+tile.contenttweaker.trashBlock11.name=Scrap Machine Casings
+tile.contenttweaker.trashBlock12.name=Metal Casing Scrap
+tile.contenttweaker.trashBlock13.name=Metal Plate Scrap
+tile.contenttweaker.trashBlock14.name=Metal Fastener Scrap
+
+item.contenttweaker.wasteplastic.name=Plastic Waste
+item.contenttweaker.wastemetal.name=Scrap Metal
+item.contenttweaker.wasteglass.name=Glass Waste
+item.contenttweaker.glassshardsdirty.name=Dirty Glass Shards
+item.contenttweaker.glassshards.name=Glass Shards
+item.contenttweaker.wasteplasticclean.name=Clean Plastic Waste
+item.contenttweaker.dustplastic.name=Plastic Pellets
+item.contenttweaker.dustplasticdirty.name=Dirty Plastic Pellets

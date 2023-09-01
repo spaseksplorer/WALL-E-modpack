@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "name": "polyvinylchloride_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "dustPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustSmallPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "dustTinyPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "ingotPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "platePolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "foilPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "stickPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "nuggetPolyvinylChloride",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 20
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	"rules": [
+		{
+			"match": {"blocks": {"blocks": ["contenttweaker:trashblock02"]}},
+			"drops": [
+				{"selector": {"weight": {"value": 1}},
+					"item": {"items": ["gregtech:meta_item_1:93"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:516"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:518"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:519"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:520"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:521"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:522"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:381"]}},
+				{"selector": {"weight": {"value": 30}},
+					"item": {"items": ["gregtech:meta_item_1:371"]}},
+				{"selector": {"weight": {"value": 20}},
+					"item": {"items": ["gregtech:meta_item_1:382"]}},
+				{"selector": {"weight": {"value": 15}},
+					"item": {"items": ["gregtech:meta_item_1:401"]}},
+				{"selector": {"weight": {"value": 10}},
+					"item": {"items": ["gregtech:meta_item_1:402"]}},
+				{"selector": {"weight": {"value": 8}},
+					"item": {"items": ["gregtech:meta_item_1:621"]}},
+				{"selector": {"weight": {"value": 4}},
+					"item": {"items": ["gregtech:meta_item_1:622"]}},
+				{"selector": {"weight": {"value": 8}},
+					"item": {"items": ["gregtech:meta_item_1:623"]}},
+				{"selector": {"weight": {"value": 4}},
+					"item": {"items": ["gregtech:meta_item_1:624"]}},
+				{"selector": {"weight": {"value": 1}},
+					"item": {"items": ["gregtech:meta_item_1:625"]}}
+			]
+		}
+	]
+}

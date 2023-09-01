@@ -1,0 +1,67 @@
+#priority 89
+#loader contenttweaker
+
+import mods.contenttweaker.VanillaFactory;
+import mods.contenttweaker.Block;
+import mods.contenttweaker.Commands;
+import crafttweaker.world.IWorld;
+import crafttweaker.entity.IEntity;
+import crafttweaker.world.IBlockPos;
+import mods.contenttweaker.BlockPos;
+import crafttweaker.util.Position3f;
+import crafttweaker.util.IRandom;
+import mods.contenttweaker.ResourceLocation;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+
+var trashBlock = VanillaFactory.createBlock("trash_block", <blockmaterial:ground>);
+trashBlock.setBlockHardness(2.0);
+trashBlock.setToolLevel(0);
+trashBlock.setBlockSoundType(<soundtype:ground>);
+trashBlock.onBlockBreak = function(world, blockPos, blockState){
+	if (!world.isRemote()) {
+		var shouldSpawn = world.random.nextInt(200);
+        if shouldSpawn==1 {
+			var blockPost = crafttweaker.util.Position3f.create(blockPos.x+0.5f, blockPos.y, blockPos.z+0.5f).asBlockPos();
+			<entity:minecraft:silverfish>.spawnEntity(world, blockPost);
+		}
+		return;
+	}
+};
+trashBlock.textureLocation = mods.contenttweaker.ResourceLocation.create("chisel:blocks/technical/insulationv2");
+trashBlock.register();
+
+var trashBlock1 = VanillaFactory.createBlock("trash_block_1", <blockmaterial:ground>);
+trashBlock1.setBlockHardness(2.0);
+trashBlock1.setToolLevel(0);
+trashBlock1.setBlockSoundType(<soundtype:ground>);
+trashBlock1.onBlockBreak = function(world, blockPos, blockState){
+	if (!world.isRemote()) {
+		var shouldSpawn = world.random.nextInt(200);
+        if shouldSpawn==1 {
+			var blockPost = crafttweaker.util.Position3f.create(blockPos.x+0.5f, blockPos.y, blockPos.z+0.5f).asBlockPos();
+			<entity:minecraft:silverfish>.spawnEntity(world, blockPost);
+		}
+		return;
+	}
+};
+trashBlock1.textureLocation = mods.contenttweaker.ResourceLocation.create("chisel:blocks/technical/rustyboltedplates");
+trashBlock1.register();
+
+var trashBlock2 = VanillaFactory.createBlock("trash_block_2", <blockmaterial:ground>);
+trashBlock2.setBlockHardness(2.0);
+trashBlock2.setToolLevel(0);
+trashBlock2.setBlockSoundType(<soundtype:ground>);
+trashBlock2.onBlockBreak = function(world, blockPos, blockState){
+	if (!world.isRemote()) {
+		var shouldSpawn = world.random.nextInt(200);
+        if shouldSpawn==1 {
+			var blockPost = crafttweaker.util.Position3f.create(blockPos.x+0.5f, blockPos.y, blockPos.z+0.5f).asBlockPos();
+			<entity:minecraft:silverfish>.spawnEntity(world, blockPost);
+		}
+		return;
+	}
+};
+trashBlock2.textureLocation = mods.contenttweaker.ResourceLocation.create("chisel:blocks/factory/plating");
+trashBlock2.register();

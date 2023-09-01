@@ -1,0 +1,78 @@
+{
+	"populate": 
+	{
+		"trash_pile": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": [
+				{
+					"weight": 1,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:stained_glass",
+							"metadata":1,
+							"weight": 1
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand",
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:gravel",
+						"minecraft:double_stone_slab",
+						"biomesoplenty:grass",
+						"biomesoplenty:dirt",
+						"biomesoplenty:dried_sand"						
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 16,
+					"height-variance": 20,
+					"height-mod": 3,
+					"gen-size": 0,
+					"size-variance": 4
+				},
+				{
+					"weight": 1,
+					"type": "stalagmite",
+					"block": [
+						{
+							"name": "minecraft:stained_glass",
+							"metadata":2,
+							"weight": 1
+						}
+					],
+					"material": [
+						"minecraft:sandstone",
+						"minecraft:sand",
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:gravel",
+						"minecraft:double_stone_slab",
+						"biomesoplenty:grass",
+						"biomesoplenty:dirt",
+						"biomesoplenty:dried_sand"						
+					],
+					"gen-body": "minecraft:air",
+					"smooth": true,
+					"fat": false,
+					"min-height": 10,
+					"height-variance": 16,
+					"height-mod": 1.5,
+					"gen-size": 0,
+					"size-variance": 5,
+					"alt-sinc": true
+				}
+			],
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": "all",
+			"enabled": false
+		}
+	}
+}

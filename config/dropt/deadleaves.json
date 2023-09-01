@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "biomesoplenty:leaves_1:9"
+          ]
+        }
+      },
+      "drops": [{}]
+    }
+  ]
+}

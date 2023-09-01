@@ -1,0 +1,7 @@
+tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=Stainless Steel Heat Exchanger Tube
+tile.nuclearcraft.heat_exchanger_condenser_tube_hard_carbon.name=Stainless Steel Condensation Tube
+tile.nuclearcraft.heat_exchanger_tube_thermoconducting.name=Titanium Heat Exchanger Tube
+tile.nuclearcraft.heat_exchanger_condenser_tube_thermoconducting.name=Titanium Condensation Tube
+
+tile.nuclearcraft.turbine_rotor_blade_extreme.name=Tungstensteel Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_sic_sic_cmc.name=HSS-S Turbine Rotor Blade

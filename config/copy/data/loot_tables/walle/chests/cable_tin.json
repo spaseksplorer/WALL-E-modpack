@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "cable_tin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "cableGtSingleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtDoubleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtQuadrupleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+	{
+      "name": "wire_tin",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "wireGtSingleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtDoubleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtQuadrupleTin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}		

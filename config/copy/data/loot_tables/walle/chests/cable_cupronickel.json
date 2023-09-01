@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "cable_cupronickel",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "cableGtSingleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtDoubleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtQuadrupleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+	{
+      "name": "wire_cupronickel",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "wireGtSingleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtDoubleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtQuadrupleCupronickel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}		

@@ -1,0 +1,412 @@
+  {
+    "type": "palette",
+    "name": "trashpile_lv_machine_palette",
+    "palette": [
+      {
+        "char": "A",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:wire_single@23"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_double@23"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_quadruple@23"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_octal@23"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_hex@23"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_single@23"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_double@23"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_quadruple@23"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_octal@23"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_hex@23"
+          }
+        ]
+      },
+      {
+        "char": "B",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:wire_single@55"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_double@55"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_quadruple@55"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_octal@55"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_hex@55"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_single@55"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_double@55"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_quadruple@55"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_octal@55"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_hex@55"
+          }
+        ]
+      },
+      {
+        "char": "C",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:wire_single@69"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_double@69"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_quadruple@69"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_octal@69"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_hex@69"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_single@69"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_double@69"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_quadruple@69"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_octal@69"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_hex@69"
+          }
+        ]
+      },
+      {
+        "char": "D",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:wire_single@2517"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_double@2517"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_quadruple@2517"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_octal@2517"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_hex@2517"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_single@2517"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_double@2517"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_quadruple@2517"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_octal@2517"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_hex@2517"
+          }
+        ]
+      },
+      {
+        "char": "E",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:wire_single@112"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_double@112"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:wire_quadruple@112"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_octal@112"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:wire_hex@112"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_single@112"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_double@112"
+          },
+          {
+            "random": 1,
+            "block": "gregtech:cable_quadruple@112"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_octal@112"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:cable_hex@112"
+          }
+        ]
+      },      
+	  {
+        "char": "╜",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "gregtech:machine@50"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@65"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@80"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@95"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@110"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@125"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@140"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@155"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@170"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@185"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@200"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@215"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@230"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@245"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@260"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@275"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@290"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@305"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@320"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@335"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@380"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@395"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@410"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@425"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@440"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@470"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@485"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@500"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@530"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@545"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@560"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@575"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@605"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@620"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@635"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@665"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@920"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@935"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@950"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@965"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@980"
+          },
+		  {
+            "random": 10,
+            "block": "gregtech:machine@986"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@1590"
+          },
+		  {
+            "random": 1,
+            "block": "gregtech:machine@1657"
+          }
+        ]
+      }
+    ]
+  },

@@ -1,0 +1,49 @@
+{
+	"rules": [
+		{
+			"match": {"blocks": {"blocks": ["contenttweaker:trashblock08"]}},
+			"drops": [
+				{"selector": {"weight": {"value": 1}},
+					"item": {"items": ["gregtech:meta_item_1:93"]}},
+				{"selector": {"weight": {"value": 800}},
+					"item": {"items": ["gregtech:meta_rotor:51"]}},
+				{"selector": {"weight": {"value": 800}},
+					"item": {"items": ["gregtech:meta_rotor:55"]}},
+				{"selector": {"weight": {"value": 1500}},
+					"item": {"items": ["gregtech:meta_rotor:112"]}},
+				{"selector": {"weight": {"value": 250}},
+					"item": {"items": ["gregtech:meta_rotor:113"]}},
+				{"selector": {"weight": {"value": 1500}},
+					"item": {"items": ["gregtech:meta_rotor:260"]}},
+				{"selector": {"weight": {"value": 500}},
+					"item": {"items": ["gregtech:meta_rotor:323"]}},
+				{"selector": {"weight": {"value": 300}},
+					"item": {"items": ["gregtech:meta_item_1:127"]}},
+				{"selector": {"weight": {"value": 200}},
+					"item": {"items": ["gregtech:meta_item_1:128"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_item_1:129"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:2"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:25"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:41"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:100"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:112"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:252"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:274"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:277"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:324"]}},
+				{"selector": {"weight": {"value": 100}},
+					"item": {"items": ["gregtech:meta_wire_fine:2517"]}}
+			]
+		}
+	]
+}

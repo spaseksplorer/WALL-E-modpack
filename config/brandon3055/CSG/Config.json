@@ -1,0 +1,9 @@
+{
+  "inventory": {
+    "0:2": "gregtech:meta_item_1,1,732,{Charge:80000L}",
+    "0:0": "gregtech:wrench_lv,1,0,{DisallowContainerItem:0b,GT.Behaviours:{},HideFlags:2,MaxCharge:80000L,GT.Tool:{MaxDurability:256,ToolSpeed:8.0f,AttackDamage:3.0f,Durability:0,Material:\"iron\",HarvestLevel:2,AttackSpeed:-2.8f},Charge:80000L}",
+    "0:1": "gregtech:screwdriver_lv,1,0,{DisallowContainerItem:0b,GT.Behaviours:{},HideFlags:2,MaxCharge:80000L,GT.Tool:{MaxDurability:256,AttackDamage:1.0f,Durability:0,Material:\"iron\",AttackSpeed:3.0f},Charge:80000L}",
+    "0:3": "gregtech:meta_item_1,1,333",
+	"0:4": "betterquesting:quest_book"
+  }
+}

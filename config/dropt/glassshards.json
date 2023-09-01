@@ -1,0 +1,84 @@
+{
+	"rules": [
+		{
+			"match": {
+				"blocks": {
+					"blocks": [
+						"minecraft:glass",
+						"minecraft:stained_glass:*",
+						"chisel:glass:*",
+						"chisel:glassdyedblack:*",
+						"chisel:glassdyedred:*",
+						"chisel:glassdyedgreen:*",
+						"chisel:glassdyedbrown:*",
+						"chisel:glassdyedblue:*",
+						"chisel:glassdyedpurple:*",
+						"chisel:glassdyedcyan:*",
+						"chisel:glassdyedlightgray:*",
+						"chisel:glassdyedgray:*",
+						"chisel:glassdyedpink:*",
+						"chisel:glassdyedlime:*",
+						"chisel:glassdyedyellow:*",
+						"chisel:glassdyedlightblue:*",
+						"chisel:glassdyedmagenta:*",
+						"chisel:glassdyedorange:*",
+						"chisel:glassdyedwhite:*"
+					]
+				}
+			},
+			"drops": [
+				{
+					"item": {
+						"items": ["contenttweaker:glassshardsdirty"]
+					}
+				}
+			]
+		},
+		{
+			"match": {
+				"blocks": {
+					"blocks": [
+						"minecraft:glass_pane",
+						"minecraft:stained_glass_pane:*",
+						"chisel:glasspane:*",
+						"chisel:glasspanedyedblack:*",
+						"chisel:glasspanedyedred:*",
+						"chisel:glasspanedyedgreen:*",
+						"chisel:glasspanedyedbrown:*",
+						"chisel:glasspanedyedblue:*",
+						"chisel:glasspanedyedpurple:*",
+						"chisel:glasspanedyedcyan:*",
+						"chisel:glasspanedyedlightgray:*",
+						"chisel:glasspanedyedgray:*",
+						"chisel:glasspanedyedpink:*",
+						"chisel:glasspanedyedlime:*",
+						"chisel:glasspanedyedyellow:*",
+						"chisel:glasspanedyedlightblue:*",
+						"chisel:glasspanedyedmagenta:*",
+						"chisel:glasspanedyedorange:*",
+						"chisel:glasspanedyedwhite:*"
+					]
+				}
+			},
+			"drops": [
+				{
+					"selector": {
+						"weight": {
+							"value": 3
+						}
+					},
+					"item": {
+						"items": ["contenttweaker:glassshardsdirty"]
+					}
+				},
+				{
+					"selector": {
+						"weight": {
+							"value": 5
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+	  "rolls": 5,
+	  "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/lv_components",
+		  "weight": 8
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/mv_components",
+		  "weight": 2
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/hv_components",
+		  "weight": 1
+		}
+      ]
+    }
+  ]
+}

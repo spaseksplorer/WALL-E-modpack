@@ -1,0 +1,1584 @@
+{
+  "build:8": "4.1.0",
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Boot Sequence Initiated...\nBattery Charge Level:  §c§r10§0§0§r§r§r%\nDeploying Solar Panels...\nBattery Charge Level:  20%\nBattery Charge Level:  30%\nBattery Charge Level:  40%\nBattery Charge Level:  50%\nBattery Charge Level:  60%\nBattery Charge Level:  70%\nBattery Charge Level:  80%\nBattery Charge Level:  90%\nBattery Charge Level:  100%\nCharging Complete\nRetracting Solar Panels...\nLoading WALL-E main program...\nLoading Complete\nCurrent Date/Time:  2708/02/03 0601.2558\nBoot Sequence Completed...\nRun program WALL-E",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 465,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "terminal:10": {
+                "_creative:1": 1
+              }
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Power On",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "ALWAYS"
+        }
+      },
+      "questID:3": 0,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "1:10": {
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "You are a Waste Allocator Lift Loader - Earth Class or WALL-E robot.  Your primary function is to collect, compact, and stack the trash that litters the Earth in order to make the planet habitable again.\n\nIn the year 2187, the Earth had become unlivable due to pollution.  Humans had consumed almost all the natural resources available and destroyed the biosphere in the process.  They fled to the stars in enormous spaceships and left behind robots to clean up the planet so they may someday return.\n\nFor centuries you and countless other WALL-E robots have toiled to gather and pile up the trash in the numerous cities that cover the planet.  One by one, the other robots broke down; you are the last one left.\n\nIn order to maintain yourself, you have taken to sifting through the trash piles for spare parts and components for when yours wear out.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 624,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "WALL-E Program",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "2:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "This pack aims to recreate the first act of the movie WALL-E.  You will be playing as WALL-E and will need to scrounge through trash piles to find components and resources.  These resources will be used to build machines in order to eventually discover life and signal to the Axiom that Earth is habitable again.\n\nThis pack is mainly focused around Gregtech Community Edition Unoffical (GTCEu) with Nuclearcraft for power later on.\n\nThis pack is mainly geared towards people who are seeking a different method of resource gathering than normal Gregtech.  Oil and Coal have been mostly depleted, trees are extremely rare.  You will need to look at other methods of generating power.  Ores are very difficult to mine by hand, so use the auto miner blocks and machines if you need to.\n\nThe vanilla Gregtech progression has not changed, so it will not be detailed through quests.  The main goals of this pack will be shown in quests though.\n\nThis pack is best played on Normal difficulty.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 470,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Pack Description",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 2,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "3:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "As a robot, you do not require food, but you still can get damaged.  Repair packs will restore some of your health.  They can occasionally be found in the delapidated buildings that dot the landscape.  You can also craft them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 93,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Healing",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 3,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 93,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "4:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Bugs seem to be the only life left on Earth, and they do not like to be disturbed.  They hide inside the trash piles, so beware when digging through them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Watch Out!",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "COMPLETED"
+        }
+      },
+      "questID:3": 4,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "damageType:8": "",
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "required:3": 1,
+          "subtypes:1": 1,
+          "target:8": "minecraft:silverfish",
+          "targetNBT:10": {
+            "AbsorptionAmount:5": 0.0,
+            "Air:2": 300,
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 8.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "CanPickUpLoot:1": 0,
+            "DeathTime:2": 0,
+            "Dimension:3": 0,
+            "FallDistance:5": 0.0,
+            "FallFlying:1": 0,
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "nuclearcraft:capability_entity_rads:10": {
+                "consumed:1": 0,
+                "externalRadiationResistance:6": 0.0,
+                "internalRadiationResistance:6": 0.0,
+                "maxRads:6": 400.0,
+                "poisonBuffer:6": 0.0,
+                "radXCooldown:6": 0.0,
+                "radXUsed:1": 0,
+                "radXWoreOff:1": 0,
+                "radawayBuffer:6": 0.0,
+                "radawayBufferSlow:6": 0.0,
+                "radawayCooldown:6": 0.0,
+                "radiationImmunityStage:1": 0,
+                "radiationImmunityTime:6": 0.0,
+                "radiationLevel:6": 0.0,
+                "recentPoisonAddition:6": 0.0,
+                "recentRadXAddition:6": 0.0,
+                "recentRadawayAddition:6": 0.0,
+                "setFromMaxHealth:1": 1,
+                "shouldWarn:1": 0,
+                "totalRads:6": 0.0
+              }
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "Health:5": 8.0,
+            "HurtByTimestamp:3": 0,
+            "HurtTime:2": 0,
+            "Invulnerable:1": 0,
+            "Leashed:1": 0,
+            "LeftHanded:1": 0,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "OnGround:1": 0,
+            "PersistenceRequired:1": 0,
+            "PortalCooldown:3": 0,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Rotation:9": {
+              "0:5": 2.915676,
+              "1:5": 0.0
+            },
+            "UUIDLeast:4": -8005866594872641830,
+            "UUIDMost:4": 6538587133664970462,
+            "UpdateBlocked:1": 0,
+            "id:8": "minecraft:silverfish"
+          },
+          "taskID:8": "bq_standard:hunt"
+        }
+      }
+    },
+    "5:10": {
+      "preRequisites:11": [
+        1
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Its what\u0027s for dinner!\n\nThere are over a dozen different trash blocks that can be found in piles throughout the cities.  They can be divided into 3 groups based on rarity.\n\nCommon trash blocks make up the bulk of the trash piles.\n-Metal Ingot Scrap (2 blocks)\n-Plastic Waste\n-Metal Plate Scrap\n\nUncommon trash blocks contain more processed items that may be more immediately useful.  They make up about a third of a trash piles blocks.\n-Metal Frame Scrap\n-Plumbing Waste (2 varieties)\n-Cable Waste\n-Scrap Machine Casings\n-Metal Casing Scrap\n-Metal Fastener Scrap\n\nRare trash blocks contain very useful items that you should always be on the lookout for they are sprinkled in throughout trash piles.\n-Basic Electronic Waste\n-Advanced Electronic Waste\n-Scrap Machines\n-Fan Scrap",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:trashblock09"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Trash",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 5,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "blocks:9": {
+            "0:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock00",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "1:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock01",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "2:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock02",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "3:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock03",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "4:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock04",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "5:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock05",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "6:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock06",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "7:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock07",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "8:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock08",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "9:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock09",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "10:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock10",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "11:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock11",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "12:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock12",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "13:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock13",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            },
+            "14:10": {
+              "amount:3": 1,
+              "blockID:8": "contenttweaker:trashblock14",
+              "meta:3": 0,
+              "nbt:10": {},
+              "oreDict:8": ""
+            }
+          },
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
+        }
+      }
+    },
+    "6:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Recycler is a multiblock that breaks down Gregtech Machines into their components.  The higher the voltage tier the Recycler is run at, the greater the chance for the outputs.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32000,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Recycler",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 6,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32000,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "7:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Coming... eventually",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "EVE Rocket",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 7,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "8:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Coming... eventually\n\nThis multiblock will send out a powerful signal when provided with a sample of biological plant life to alert the Axiom and other human ships that the Earth is capable of supporting life.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:beacon"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Interstellar Transmitter",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 8,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "9:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:fission_controller_new_fixed"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Fission Reactor",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 9,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:fission_controller_new_fixed"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "10:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:salt_fission_controller"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Molten Salt Reactor",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 10,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:salt_fission_controller"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "11:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:heat_exchanger_controller"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Heat Exchanger",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 11,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:heat_exchanger_controller"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "12:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "nuclearcraft:turbine_controller"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Turbine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 12,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "nuclearcraft:turbine_controller"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "13:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oA higher-tech backpack! Also seriously undervalued.§r\n\nThe §9Portable Cell§r can hold items for you! It holds up to §a27§r types of items.\n\nWhat\u0027s more, it acts just like a regular AE2 Storage Cell. Once you get an ME System running, you can simply drop it into an §aME Drive§r or §b§aME IO Port§r for convenience.\n\nThe Portable Cell\u0027s energy only drains when it\u0027s open. With §6167 minutes§r of juice stored in it thanks to changed config, you shouldn\u0027t worry about it running out of energy.\nRegardless, you will be able to §dcharge§r it in §7LV§r Age in §3machine Charger slots§r, §3Turbo Chargers§r or §3Battery Buffers§r.\n\n§\n§cWarning§r: Attempting to store items with very large NBT Tags may result in them getting §cstuck§r. So far it seems that the Building Gadgets, Terminal and Clipboards are §lsafe§r, but we never know what could happen.\nIf something gets stuck, build a simple AE2 Network with just an Energy Acceptor, an IO Port and a Storage Bus on a chest. Then place your Portable Cell inside the IO Port. This will spit out items into the chest.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "appliedenergistics2:portable_cell",
+            "tag:10": {
+              "internalCurrentPower:6": 200000.0,
+              "internalMaxPower:6": 200000.0
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Portable Cell",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 13,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:portable_cell",
+              "tag:10": {
+                "internalCurrentPower:6": 200000.0,
+                "internalMaxPower:6": 200000.0
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "14:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oWhy can\u0027t these items I mine behave and enter my inventory!? This magnet should solve it, even if it makes no sense!§r\n\nCharge the Magnet while you would with a §9Battery§r, and §dsneak right-click§r when in hand to activate it. Do it again to deactivate. It will work from anywhere in your inventory.\n\n§9Note:§r If are you worried about getting overwhelmed by Cobblestone or Netherrack, open the trash can from FTB:Utilities in the top left corner to void them.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 471,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 100000
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Magnet",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 14,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 471,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 100000
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "15:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Harness the power of the Sun!\n\nAs a WALL-E robot, you are equipped with an LV Solar Panel by default.  This can be used to power a single LV machine.  If you wish to power more machines or machines of a higher voltage, you\u0027ll need more or better solar panels.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 334,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Solar Power",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 15,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 334,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "16:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "All machines typically have one §7Front Face§r, and one §9Output Face§r.\nThe §7Front Face§r should be obvious.\nThe §9Output Face§r is the face with a dot or hole on it. By default, this is at the back of the machine as you place it.\n\nMachines can §aauto-output§r through their output face. To turn on auto-output, click the appropriate button in the GUI. Fluid and item auto-outputs are toggled separately. Further control over auto-outputs can be achieved with §dFilters§r and §dCovers§r, which are explained in the quest to the left of this one.\n\nRight-clicking a machine with a §5Wrench§r changes the output side, and shift-right-clicking changes the front side. Keep in mind that the front side §ccannot§r also be the output side! \n\nBy default, items and fluids cannot be inserted through the output side, but this can be toggled with a §5Screwdriver§r. Either right-click the output face directly, or shift-right-click on the grid corresponding to the side of the output.\n\n\nThere are unique machines that do not process recipes, such as the §3Pump§r, §3Miner§r, §3Fisher§r, §3Item Collector§r...\nThese machines will output on their Front Face (which is still marked as a dot).",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:hopper"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Machines Auto-Output Behavior",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 16,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "17:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oCovers are ways to give your machines extra behavior without using any extra block space.§r\n\nCovers are placed by right-clicking with it on a face of a machine, and removed with a §5Crowbar§r (or by mining the machine, but that\u0027s too brutal!).\n\nPretty much any GregTech TileEntity will accept Covers, even if they provide no functionality.\n\nOpening a Cover is done by shift-right-clicking it with an §5empty hand§r. You can also right-click with a §5Screwdriver§r, or shift-right-click on another face using the grid.\n\nFor the Covers transferring Items/Fluids, you will have a button to enable/disable other forms of transfer through the cover:\n§9- §rDisabled: only the cover will be allowed to transfer on this machine side.\n§9-§r Allow Filtered (only relevant with a filter!): other transfer will be enabled only if it matches the filter\n§9-§r Allow Unfiltered: any other transfer is allowed on this machine side.\n\nPlacing a cover of a lower voltage tier on a machine is §9safe§r.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 308,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Covers Behavior",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 17,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "18:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Ore Generation",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 18,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "19:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oThis hammer is very different. It\u0027s a pickaxe, but also not. It\u0027s a §d§o3x3 pickaxe§r§o!§r\n\nMake good use of this! You want it, I know it! This bad boy will give you so many ores in no time, given you are in a vein.\n\n§3Drawers§r are configured to §6keep their Inventory§r when broken, so you can use them for your mining expeditions.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "gregtech:mining_hammer",
+            "tag:10": {
+              "DisallowContainerItem:1": 0,
+              "GT.Behaviours:10": {
+                "AoEColumn:3": 1,
+                "AoELayer:3": 0,
+                "AoERow:3": 1,
+                "MaxAoEColumn:3": 1,
+                "MaxAoELayer:3": 0,
+                "MaxAoERow:3": 1,
+                "TorchPlacing:1": 1
+              },
+              "GT.Tool:10": {
+                "AttackDamage:5": 3.5,
+                "AttackSpeed:5": -3.2,
+                "Durability:3": 0,
+                "HarvestLevel:3": 2,
+                "Material:8": "iron",
+                "MaxDurability:3": 256,
+                "ToolSpeed:5": 4.8
+              },
+              "HideFlags:3": 2
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Mining Hammer",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 19,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:mining_hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "AoEColumn:3": 1,
+                  "AoELayer:3": 0,
+                  "AoERow:3": 1,
+                  "MaxAoEColumn:3": 1,
+                  "MaxAoELayer:3": 0,
+                  "MaxAoERow:3": 1,
+                  "TorchPlacing:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.5,
+                  "AttackSpeed:5": -3.2,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "iron",
+                  "MaxDurability:3": 768,
+                  "ToolSpeed:5": 4.8
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "20:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "More GregTech tools are required for progression, here are the most important of them all.\n\n§9§lWrench:§r A crafting tool. But also a mining tool for GregTech machines (perfect if you think using pickaxes is unethical). Is that it? Certainly not! It has right click functions to double as a Forge §6Wrench for other mods§r. Right Click also allows you to set the output side of GregTech machines. Shift right clicking allows you to rotate GregTech machines.\n\n§9§lFile:§r A crafting tool. And that\u0027s it. Yes.\n\n§9§lSaw:§r Another crafting tool. If we were evil, we would force it to obtain 4 Planks and 4 Sticks from their respective crafting recipes. That said you can still use it to get §a6 Planks per Log§r, if you wish.\n\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.\n\nMore tools, not important right now, but required later on.\n\n§9§lScrewdriver:§r A crafting tool. It is used for special configuration of machines and Covers.\n\n§9§lWire Cutter:§r A crafting tool. It is needed to connect wires together. Right-clicking on wires will enable or disable connection to other blocks.\n\n§9§lMortar:§r A crafting tool, to grind various things into dust form.\n\n§9§lKnife:§r A mediocre weapon, but also... you guessed it, a crafting tool!\n\n§9§lSoft Mallet:§r A tool to pause machines from working with right-click. Right-clicking again resumes working.\n\nThere are a few §dother Tools§r which are less important, but deserve a mention.\n\n§9§lCrowbar:§r A niche tool to remove Covers from GregTech machines with a right-click.\n\n§9§lScythe:§r A powerful farming tool, automatically breaks and re-plants crops in a large area. Also works as a good weapon!\n\n§9§lPlunger:§r A tool to clear stuck fluids from GregTech machines.\n\n§9§lButchery Knife:§r A weapon pre-enchanted with Looting III. Useful for getting extra food, Leather...\n\n§eNote:§r This quest\u0027s reward is §9Damascus Steel§r. A rare material which is only found in §ddungeon/worldgen loot§r. It is much better than the materials you have access to right now, so be sure to use it!\n\n§eNote:§r Any Quest with GregTech tools can be completed with the tool crafted from any material, not just the one displayed.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gregtech Tools",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 20,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:wrench",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 3.0,
+                  "AttackSpeed:5": -2.8,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "iron",
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:file",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "MaxDurability:3": 256
+                },
+                "HideFlags:3": 2
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:saw",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.6,
+                  "Durability:3": 0,
+                  "Material:8": "iron",
+                  "MaxDurability:3": 256
+                },
+                "HideFlags:3": 2
+              }
+            },
+			"3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:wire_cutter",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 2,
+                  "Material:8": "iron",
+                  "MaxDurability:3": 256,
+                  "ToolSpeed:5": 6.0
+                },
+                "HideFlags:3": 2
+              }
+            },
+          },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:mallet",
+              "tag:10": {
+                "GT.Behaviours:10": {},
+                "GT.Tool:10": {
+                  "AttackDamage:5": 1.0,
+                  "AttackSpeed:5": -2.4,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 1,
+                  "Material:8": "wood",
+                  "MaxDurability:3": 48,
+                  "ToolSpeed:5": 4.0
+                },
+                "HideFlags:3": 2
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "21:10": {
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§oMaybe you thought forcing crafting with tools would make your life painful. I shall present you the solution: the Crafting Station.§r\n\nThe §3Crafting Station§r is a highly §9advanced Crafting Table§r, with inventory slots for item and tools. Put the recipes either by dropping ghost items, or using the §a+§r in §2JEI§r. Crafting the items will use the items and tools in the inventory. The 9 slots on the right are saved up recipes so you can re-use them without re-opening §2JEI§r.\n\nWhat makes the §3Crafting Station§r amazing, is the fact that §6it can use adjacent inventories§r in addition to its own inventory. If you are familiar to playing with Applied Energistics, the Crafting Station is essentially a mini ME Crafting Terminal.\n\n\n§bLore:§r The reason Omnifactory had Forestry in its modlist was primarily due to its Worktable, which serves a similar function to the Crafting Station. A couple more Forestry items were used, otherwise the whole mod\u0027s functionality was disabled! Since GTCE added the Crafting Station, Omnifactory has started working on phasing out Forestry.",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1647,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Crafting Station",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 21,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1647,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "lineID:3": 0,
+      "order:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "name:8": "Introduction",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 0,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 1,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -12
+        },
+        "2:10": {
+          "id:3": 2,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 3,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 36
+        },
+        "4:10": {
+          "id:3": 4,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": 36
+        },
+        "5:10": {
+          "id:3": 5,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        }
+      }
+    },
+    "1:10": {
+      "lineID:3": 1,
+      "order:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "name:8": "Multiblock Guides",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 6,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -48
+        },
+        "1:10": {
+          "id:3": 7,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": -12
+        },
+        "2:10": {
+          "id:3": 8,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -48,
+          "y:3": 24
+        },
+        "3:10": {
+          "id:3": 9,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -48
+        },
+        "4:10": {
+          "id:3": 10,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -12
+        },
+        "5:10": {
+          "id:3": 11,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 24
+        },
+        "6:10": {
+          "id:3": 12,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 24
+        }
+      }
+    },
+    "2:10": {
+      "lineID:3": 2,
+      "order:3": 2,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:book"
+          },
+          "name:8": "Tips and Tricks",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 13,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 0
+        },
+        "1:10": {
+          "id:3": 14,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 36
+        },
+        "2:10": {
+          "id:3": 15,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 0
+        },
+        "3:10": {
+          "id:3": 16,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "4:10": {
+          "id:3": 17,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 0
+        },
+        "5:10": {
+          "id:3": 18,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 36
+        },
+        "6:10": {
+          "id:3": 19,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 0,
+          "y:3": 72
+        },
+        "7:10": {
+          "id:3": 20,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 72
+        },
+        "8:10": {
+          "id:3": 21,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": 72
+        }
+      }
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "editmode:1": 0,
+      "hardcore:1": 0,
+      "home_anchor_x:5": 0.5,
+      "home_anchor_y:5": 0.0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0,
+      "livesdef:3": 3,
+      "livesmax:3": 10,
+      "pack_name:8": "",
+      "pack_version:3": 0,
+      "party_enable:1": 1
+    }
+  }
+}

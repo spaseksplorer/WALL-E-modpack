@@ -1,0 +1,41 @@
+{
+	"populate": 
+	{
+		"trash_plate": {
+			"distribution": "surface",
+			"follow-terrain": "true",
+			"generator": {
+					"type": "plate",
+					"block": [
+						{
+							"name": "minecraft:stained_glass",
+							"metadata":3,
+							"weight": 1
+						}
+					],
+					"material": [
+						"minecraft:air",
+						"minecraft:sandstone",
+						"minecraft:sand",
+						"minecraft:dirt",
+						"minecraft:grass",
+						"minecraft:gravel",
+						"minecraft:double_stone_slab",
+						"biomesoplenty:grass",
+						"biomesoplenty:dirt",
+						"biomesoplenty:dried_sand"						
+					],
+					"gen-body": "minecraft:air",
+					"radius": 5,
+					"height": 3,
+					"shape": "SQUARE"
+				},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": "all",
+			"enabled": false
+		}
+	}
+}

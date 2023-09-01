@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "name": "MV_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:meta_item",
+          "name": "electric.motor.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "electric.piston.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 16
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "conveyor.module.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "electric.pump.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 12
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "robot.arm.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+          "weight": 11
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "emitter.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 9
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "sensor.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 9
+        }
+      ]
+    },
+	{
+      "name": "MV_batteries",
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "gregtech:meta_item",
+          "name": "battery.hull.mv",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 200
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.sodium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 36000l}"
+            }
+          ],
+          "weight": 160
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.lithium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 42000l}"
+            }
+          ],
+          "weight": 40
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.cadmium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 40000l}"
+            }
+          ],
+          "weight": 80
+        },
+		{
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.sodium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 360000l}"
+            }
+          ],
+          "weight": 16
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.lithium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 420000l}"
+            }
+          ],
+          "weight": 4
+        },
+        {
+          "type": "gregtech:meta_item",
+          "name": "battery.re.mv.cadmium",
+          "functions": [
+			{
+                "function": "set_nbt",
+                "tag": "{Charge: 400000l}"
+            }
+          ],
+          "weight": 8
+        }
+      ]
+    },
+	{
+	  "rolls": 1,
+	  "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/cable_annealedcopper",
+		  "weight": 4
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_copper",
+		  "weight": 8
+		},
+		{
+		  "type": "loot_table",
+          "name": "walle:chests/cable_cupronickel",
+		  "weight": 4
+		}		
+      ]
+    }
+  ]
+}

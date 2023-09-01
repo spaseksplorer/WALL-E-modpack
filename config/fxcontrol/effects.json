@@ -1,0 +1,7 @@
+[
+	{
+    "timeout": 20,
+    "helditem": [ "minecraft:stone_pickaxe", "minecraft:stone_axe", "minecraft:stone_shovel", "minecraft:stone_sword" ],
+    "potion": "minecraft:slowness,21,3"
+	}
+]

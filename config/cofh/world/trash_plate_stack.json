@@ -1,0 +1,154 @@
+{
+	"populate": 
+	{
+		"trash_plate_stack": {
+			"distribution": "surface",
+			"generator": {
+				"type": "sequential",
+				"generators": [
+					{
+						"type": "plate",
+						"block": [
+							{
+								"name": "minecraft:stained_glass",
+								"metadata":3,
+								"weight": 1
+							}
+						],
+						"material": [
+							"minecraft:stained_glass",
+							"minecraft:air",
+							"minecraft:sandstone",
+							"minecraft:sand",
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:gravel",
+							"minecraft:double_stone_slab",
+							"biomesoplenty:grass",
+							"biomesoplenty:dirt",
+							"biomesoplenty:dried_sand"						
+						],
+						"gen-body": "minecraft:air",
+						"radius": 5,
+						"height": 3,
+						"shape": "SQUARE"
+					},
+					{
+						"type": "plate",
+						"block": [
+							{
+								"name": "minecraft:stained_glass",
+								"metadata":4,
+								"weight": 1
+							}
+						],
+						"material": [
+							"minecraft:stained_glass",
+							"minecraft:air",
+							"minecraft:sandstone",
+							"minecraft:sand",
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:gravel",
+							"minecraft:double_stone_slab",
+							"biomesoplenty:grass",
+							"biomesoplenty:dirt",
+							"biomesoplenty:dried_sand"						
+						],
+						"gen-body": "minecraft:air",
+						"radius": 4,
+						"height": 3,
+						"shape": "SQUARE"
+					},	
+					{
+						"type": "plate",
+						"block": [
+							{
+								"name": "minecraft:stained_glass",
+								"metadata":5,
+								"weight": 1
+							}
+						],
+						"material": [
+							"minecraft:stained_glass",
+							"minecraft:air",
+							"minecraft:sandstone",
+							"minecraft:sand",
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:gravel",
+							"minecraft:double_stone_slab",
+							"biomesoplenty:grass",
+							"biomesoplenty:dirt",
+							"biomesoplenty:dried_sand"						
+						],
+						"gen-body": "minecraft:air",
+						"radius": 3,
+						"height": 3,
+						"shape": "SQUARE"
+					},	
+					{
+						"type": "plate",
+						"block": [
+							{
+								"name": "minecraft:stained_glass",
+								"metadata":6,
+								"weight": 1
+							}
+						],
+						"material": [
+							"minecraft:stained_glass",
+							"minecraft:air",
+							"minecraft:sandstone",
+							"minecraft:sand",
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:gravel",
+							"minecraft:double_stone_slab",
+							"biomesoplenty:grass",
+							"biomesoplenty:dirt",
+							"biomesoplenty:dried_sand"						
+						],
+						"gen-body": "minecraft:air",
+						"radius": 2,
+						"height": 3,
+						"shape": "SQUARE"
+					},		
+					{
+						"type": "plate",
+						"block": [
+							{
+								"name": "minecraft:stained_glass",
+								"metadata":7,
+								"weight": 1
+							}
+						],
+						"material": [
+							"minecraft:stained_glass",
+							"minecraft:air",
+							"minecraft:sandstone",
+							"minecraft:sand",
+							"minecraft:dirt",
+							"minecraft:grass",
+							"minecraft:gravel",
+							"minecraft:double_stone_slab",
+							"biomesoplenty:grass",
+							"biomesoplenty:dirt",
+							"biomesoplenty:dried_sand"						
+						],
+						"gen-body": "minecraft:air",
+						"radius": 1,
+						"height": 3,
+						"shape": "SQUARE"
+					}				
+				]
+			},
+			"cluster-count": 1,
+			"chunk-chance": 4,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": "all",
+			"enabled": false
+		}
+	}
+}

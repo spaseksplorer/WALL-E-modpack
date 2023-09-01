@@ -1,0 +1,9 @@
+[
+	{
+		"mob":"minecraft:silverfish",
+		"result": "allow"	
+	},
+	{
+		"result":"deny"
+	}
+]

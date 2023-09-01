@@ -1,0 +1,66 @@
+[
+  {
+    "type": "building",
+    "name": "trashpile_bldg",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+	"minfloors": 3,
+    "maxfloors": 5,
+    "preferslonely": 0.0,
+    "parts": [
+      {
+        "floor": 0,
+        "part": "trashpile_01"
+      },
+      {
+        "floor": 1,
+        "part": "trashpile_02"
+      },
+      {
+        "floor": 2,
+        "part": "trashpile_03"
+      },
+      {
+        "floor": 3,
+        "part": "trashpile_04"
+      },
+      {
+        "floor": 4,
+        "part": "trashpile_05"
+      },
+      {
+        "floor": 5,
+        "part": "trashpile_06"
+      }
+    ]
+  },
+  {
+    "type": "building",
+    "name": "cooling_tower_bldg",
+    "filler": "#",
+    "mincellars": 0,
+    "maxcellars": 0,
+	"minfloors": 3,
+    "maxfloors": 3,
+    "preferslonely": 0.0,
+    "parts": [
+      {
+        "floor": 0,
+        "part": "cooling_tower_0"
+      },
+      {
+        "floor": 1,
+        "part": "cooling_tower_1"
+      },
+      {
+        "floor": 2,
+        "part": "cooling_tower_2"
+      },
+      {
+        "floor": 3,
+        "part": "cooling_tower_1"
+      }
+    ]
+  }
+]

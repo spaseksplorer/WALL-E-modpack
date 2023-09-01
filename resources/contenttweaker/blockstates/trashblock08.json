@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+        "side": "chisel:blocks/technical/fanstill-side",
+        "end" : "chisel:blocks/technical/fanstill-top"
+    },
+    "model": "cube_column",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

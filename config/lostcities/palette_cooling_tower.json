@@ -1,0 +1,22 @@
+[
+  {
+    "type": "palette",
+    "name": "cooling_tower_palette",
+    "palette": [
+      {
+        "char": "W",
+        "blocks": [
+          {
+            "random": 1,
+            "block": "minecraft:stained_hardened_clay@9"
+          },
+		  {
+            "random": 1000,
+            "block": "minecraft:concrete@8"
+          }
+        ],
+		"damaged": "minecraft:iron_bars"
+      }
+	]
+  }
+]

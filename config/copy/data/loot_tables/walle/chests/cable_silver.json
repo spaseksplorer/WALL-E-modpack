@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "cable_silver",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "cableGtSingleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtDoubleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtQuadrupleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+	{
+      "name": "wire_silver",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "wireGtSingleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtDoubleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtQuadrupleSilver",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}		

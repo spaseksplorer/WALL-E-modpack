@@ -1,0 +1,185 @@
+{
+  "pools": [
+    {
+      "name": "ULV_pool",
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/lead",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/redalloy",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/wroughtiron",
+		  "weight": 8
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/iron",
+		  "weight": 8
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/potin",
+		  "weight": 8
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/brass",
+		  "weight": 8
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/bronze",
+		  "weight": 8
+		}
+      ]
+    },
+	{
+      "name": "LV_pool",
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/brass",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/bronze",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/iron",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/steel",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/invar",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/nickel",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/copper",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/cupronickel",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/cobaltbrass",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/rubber",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/tin",
+		  "weight": 1
+		}
+      ]
+    },
+	{
+      "name": "MV_pool",
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/aluminium",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/annealedcopper",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/copper",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/steel",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/plastic",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/polyvinylchloride",
+		  "weight": 1
+		}
+      ]
+    },
+	{
+      "name": "HV_pool",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/gold",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/electrum",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/stainlesssteel",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/silver",
+		  "weight": 1
+		},
+        {
+		  "type": "loot_table",
+          "name": "walle:chests/steel",
+		  "weight": 1
+		}
+	  ]
+	}
+  ]
+}

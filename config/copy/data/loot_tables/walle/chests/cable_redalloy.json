@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "name": "cable_redalloy",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "cableGtSingleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtDoubleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "cableGtQuadrupleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    },
+	{
+      "name": "wire_redalloy",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "gregtech:ore_dict",
+          "name": "wireGtSingleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 4
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtDoubleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 2
+        },
+		{
+          "type": "gregtech:ore_dict",
+          "name": "wireGtQuadrupleRedAlloy",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}		

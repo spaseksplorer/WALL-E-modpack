@@ -1,0 +1,28 @@
+[
+  {
+	"type": "palette", 
+	"name": "tb02_05_05_00", 
+	"palette": [{
+		"char": "å", 
+		"blocks": [
+		  {
+			  "random": 1, 
+			  "block": "contenttweaker:trashblock02"
+		  },
+		  {
+			  "random": 15, 
+			  "block": "contenttweaker:trashblock05"
+		  },
+		  {
+			  "random": 25, 
+			  "block": "contenttweaker:trashblock05"
+		  },
+		  {
+			  "random": 1000, 
+			  "block": "contenttweaker:trashblock00"
+		  }
+		]
+	  }
+	]
+  }
+]
